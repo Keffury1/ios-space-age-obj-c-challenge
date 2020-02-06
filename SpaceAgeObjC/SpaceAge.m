@@ -13,13 +13,13 @@
 -(void)ageInSeconds:(int)seconds
 {
     int earthYear = 31557600;
-    int mercuryYear = 31557600;
-    int venusYear = 31557600;
-    int marsYear = 31557600;
-    int jupiterYear = 31557600;
-    int saturnYear = 31557600;
-    int uranusYear = 31557600;
-    int neptuneYear = 31557600;
+    int mercuryYear = 7600543;
+    int venusYear = 19414149;
+    int marsYear = 59354032;
+    int jupiterYear = 374355859;
+    int saturnYear = 929292363;
+    int uranusYear = earthYear * 84;
+    int neptuneYear = earthYear * 165;
     
     int earthAge = seconds / earthYear;
     int mercuryAge = seconds / mercuryYear;
