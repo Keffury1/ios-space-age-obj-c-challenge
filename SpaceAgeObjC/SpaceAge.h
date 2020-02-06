@@ -6,4 +6,12 @@
 //  Copyright © 2019 joshua kaunert. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
+@interface SpaceAge : NSObject
+
+-(void)ageInSeconds:(NSUInteger *)seconds;
+
+@end
+
 

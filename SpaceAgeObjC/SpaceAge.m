@@ -6,5 +6,13 @@
 //  Copyright © 2019 joshua kaunert. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SpaceAge.h"
 
+@implementation SpaceAge
+
+-(void)ageInSeconds:(NSUInteger *)seconds
+{
+    
+}
+
+@end
