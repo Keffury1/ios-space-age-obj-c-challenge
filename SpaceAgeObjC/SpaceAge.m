@@ -7,10 +7,11 @@
 //
 
 #import "SpaceAge.h"
+#import <Foundation/Foundation.h>
 
 @implementation SpaceAge
 
--(void)ageInSeconds:(int)seconds
+- (void)ageInSeconds:(int)seconds
 {
     int earthYear = 31557600;
     int mercuryYear = 7600543;

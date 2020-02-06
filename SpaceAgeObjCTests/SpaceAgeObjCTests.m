@@ -26,16 +26,16 @@ static const double AgeAccuracy = 0.01;
 }
 
 - (void)testAgeInSeconds {
-    SpaceAge *age = [[SpaceAge alloc] initWithSeconds:1000000];
+    SpaceAge *age = [[SpaceAge alloc] ageInSeconds:1000000];
     XCTAssertEqual(1000000, age.seconds);
 }
 
 - (void)testAgeOnEarth {
-    SpaceAge *age = [[SpaceAge alloc] initWithSeconds:1000000000];
+    SpaceAge *age = [[SpaceAge alloc] ageInSeconds:1000000000];
     XCTAssertEqualWithAccuracy(31.69, age.onEarth, AgeAccuracy);
 }
 - (void)testAgeOnMercury {
-    SpaceAge *age = [[SpaceAge alloc] initWithSeconds:2134835688];
+    SpaceAge *age = [[SpaceAge alloc] ageInSeconds:2134835688];
     XCTAssertEqualWithAccuracy(67.65, age.onEarth, AgeAccuracy);
     XCTAssertEqualWithAccuracy(280.88, age.onMercury, AgeAccuracy);
 }
