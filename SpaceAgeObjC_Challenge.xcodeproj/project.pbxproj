@@ -80,15 +80,9 @@
 		2215350422DF081F000D037F /* SpaceAgeObjC */ = {
 			isa = PBXGroup;
 			children = (
-				2215350522DF081F000D037F /* AppDelegate.h */,
-				2215350622DF081F000D037F /* AppDelegate.m */,
-				2215350E22DF0822000D037F /* main.m */,
-				2215352422DF0ADD000D037F /* SpaceAge.h */,
-				2215352522DF0AFE000D037F /* SpaceAge.m */,
-				22B567AA22DF254A0019E938 /* MainMenu.xib */,
-				2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */,
-				2215350822DF0822000D037F /* Assets.xcassets */,
-				2215350D22DF0822000D037F /* Info.plist */,
+				373C1FD323EC7E2C00E88FA1 /* App Lifecycle */,
+				373C1FD423EC7E3100E88FA1 /* Models */,
+				373C1FD523EC7E5700E88FA1 /* Resources */,
 			);
 			path = SpaceAgeObjC;
 			sourceTree = "<group>";
@@ -100,6 +94,36 @@
 				2215351B22DF0822000D037F /* Info.plist */,
 			);
 			path = SpaceAgeObjCTests;
+			sourceTree = "<group>";
+		};
+		373C1FD323EC7E2C00E88FA1 /* App Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				2215350522DF081F000D037F /* AppDelegate.h */,
+				2215350622DF081F000D037F /* AppDelegate.m */,
+				2215350E22DF0822000D037F /* main.m */,
+			);
+			name = "App Lifecycle";
+			sourceTree = "<group>";
+		};
+		373C1FD423EC7E3100E88FA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2215352422DF0ADD000D037F /* SpaceAge.h */,
+				2215352522DF0AFE000D037F /* SpaceAge.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		373C1FD523EC7E5700E88FA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22B567AA22DF254A0019E938 /* MainMenu.xib */,
+				2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */,
+				2215350822DF0822000D037F /* Assets.xcassets */,
+				2215350D22DF0822000D037F /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +170,7 @@
 		221534FA22DF081F000D037F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "joshua kaunert";
 				TargetAttributes = {
 					2215350122DF081F000D037F = {
@@ -342,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SpaceAgeObjC/SpaceAgeObjC.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
@@ -360,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SpaceAgeObjC/SpaceAgeObjC.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
