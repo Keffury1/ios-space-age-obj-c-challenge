@@ -10,7 +10,7 @@
 
 @interface SpaceAge : NSObject
 
--(void)ageInSeconds:(NSUInteger *)seconds;
+-(void)ageInSeconds:(int)seconds;
 
 @end
 
